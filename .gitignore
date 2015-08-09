@@ -48,7 +48,7 @@ NuGetPackages
 packages*/
 
 #Paths to ignore
-TryRabbitMQ\MessageServer/
-TryRabbitMQ\MessageClient\bin/
-TryRabbitMQ\MessageClient\obj/
+TryRabbitMQ/MessageServer/
+TryRabbitMQ/MessageClient/bin/
+TryRabbitMQ/MessageClient/obj/
 
