@@ -41,3 +41,14 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+# NuGet Directory Added By Keith
+NuGetPackages
+packages*/
+
+#Paths to ignore
+TryRabbitMQ\MessageServer/
+TryRabbitMQ\MessageClient\bin/
+TryRabbitMQ\MessageClient\obj/
+
