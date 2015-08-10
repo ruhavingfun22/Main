@@ -50,6 +50,11 @@ namespace MessageClient
             }
         }
 
+        /// <summary>
+        /// Send the message to RabbitMQ
+        /// </summary>
+        /// <param name="channel"></param>
+        /// <param name="message"></param>
         public static void Send(IModel channel, string message)
         {
             var body = Encoding.UTF8.GetBytes(message);
